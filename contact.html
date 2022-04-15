@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Contact</title>
 </head>
-<body>
     <div class="container">
         <header> 
-           <nav>
-               <ul>
+            <nav>
+                <ul>
                     <li>
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="102" height="102" viewBox="0 0 102 102">
                             <defs>
@@ -27,29 +26,41 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li> 
-               </ul>
-           </nav> 
+                    <li><a href="contact.html">Contact</a></li>  
+                </ul>
+            </nav> 
         </header>
         <main>
-            <div class="article-columns">
-                <div class="column">
-                    <img src="images/about_logo.png">
-                    <h2>About Brand</h2>
-                    <p>Charles Harrison Design was created out of necessity to begin a design forward brand identity to launch myself into the industry. With the idea of a journey in mind, and many paths to take,  the only way up, is forward.</p>
+            <div class="contact-banner">
+                <div class="message-block">
+                    <h2>My Message to You</h2>
+                    <p>Be sure to leave me a detailed message about any interests in future projects and I will reply as soon as humanly possible. While I am currently a student first, and designer second, please know that my path on this journey of learning is ongoing. I look forward to new opportunities and welcome a challenge. Safe travels, and may all you endeavours lead to success.</p>
                 </div>
-                <div class="column">
-                    <img src="images/about_designer.png">
-                    <h2>About Designer</h2>
-                    <p>My name is Charlie Guenther (a.k.a. Charles Harrison). I am a college student at Algonquin College studying Interactive Media Design. I have always believed in following my intuition, standing out from the pack, and forging my own destiny.</p>
-                </div>
-                <div class="column">
-                    <img src="images/about_work.png">
-                    <h2>About My Work</h2>
-                    <p>Throughout the past several months, I have been immersed in the world of media and design. Creating brand identities, logos, webpages, blogs, UX designs, photography, videography and digital graphics. I look forward to the inspiration that the future holds.</p>
-                </div>
+                <img src="images/contact_logo.png">
+                <img src="images/contact_banner.png">
             </div>
-            <img src="images/about_banner.png">
+
+            <div class="contact">
+                <img src="images/contact_logo_2.png"
+                <!-- Contact Form -->
+                <form action="#">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="yourname" placeholder="Your name...">
+
+                    <label for="name">Number (*Optional)</label>
+                    <input type="text" id="name" name="yourname" placeholder="Your number...">
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="youremail" placeholder="Your email address...">
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Write something..">
+                    </textarea>
+
+                    <input id="submit" type="submit" value="Submit">
+                </form>
+            </div>
+
         </main>
         <footer>
             <!-- Copyright Information -->
@@ -64,5 +75,7 @@
             </nav>
         </footer>
     </div>
+<body>
+    
 </body>
 </html>
