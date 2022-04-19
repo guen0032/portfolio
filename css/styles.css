@@ -152,7 +152,7 @@ font-family: 'Quicksand', sans-serif;
 font-size: 18px;
 }
 
-/********** Banner **********/
+/********** Home Page Banner **********/
 
 .banner {
 display: flex;
@@ -243,7 +243,7 @@ align-self: center;
 margin-bottom: 1em;
 }
 
-/********** About Info **********/
+/********** About Page **********/
 
 .article-columns {
 margin-left: auto;
@@ -395,6 +395,7 @@ p {
 font-size: 14px;
 }
 
+/* Hide Unwanted Elements at Breakpoint */
 .text-block, .message-block {
     display: none;
 }
