@@ -11,4 +11,20 @@ After placing the logo image in it's own div inside of the container div for the
 
 Luckily, I found that Adobe fonts can also be imported into web project, but directly through the HTML in the head tag just like linking the CSS stylesheet. 
 
-3. 
+3. The last problem I ran into was having my textboxes over the banners on the homepage and the contact page be able to responsively resize to the different breakpoints. Unfortunately this was not something I was able to figure out, and instead opted to use display: none; to remove them for the smaller breakpoints. 
+
+
+### What I Learned
+While working on this project I have learned that creating similarly structured elements or using elements with the same class names can speed up the process by creating universal stylings for those elements. For example, having the same class name for all column grid layouts to be used across multiple pages helps to lighten the load. 
+
+I also learned that web development takes a lot of patience, a lot of practice, and is a non stop learning journey. Just when I feel like I'm getting the hang of it, something in my code will bug out, and I'm still learning to not panic when that happens.
+
+### Resources
+
+All photos that were not my own were taken from:
+- [Unsplash](https://unsplash.com/)
+
+All fonts taken from:
+- [Adobe Fonts](https://fonts.adobe.com/)
+- [Google Fonts](https://fonts.google.com/)
+
